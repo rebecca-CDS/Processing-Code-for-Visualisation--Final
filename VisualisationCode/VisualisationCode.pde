@@ -15,13 +15,14 @@ DataOut dOut;
 
 import processing.video.*;
 
+
 MovieMaker mm;  // Declare MovieMaker object
 
 void setup()
 {
 size(800, 400);  // size of visualisation window
   
-  mm = new MovieMaker (this, width, height, "drawing2.mov", 30, MovieMaker.H263, MovieMaker.HIGH);
+  mm = new MovieMaker (this, 800, 400, "drawing2.mov", 30, MovieMaker.H263, MovieMaker.HIGH);
   
   println(Arduino.list());
 arduino = new Arduino(this, Arduino.list()[0], 57600);
