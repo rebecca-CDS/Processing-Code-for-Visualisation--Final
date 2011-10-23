@@ -1,7 +1,9 @@
 // started with tutorial Josh Harle: http://vimeo.com/28552079
 // to get movie maker the code on this website was used: http://processing.org/reference/libraries/video/MovieMaker.html
 
-// for visualisation by Rebecca Penn 3333620 for module 2 submission arch1391 2011
+// see previous repository "Visualisation--Processing" for original codes (repository would not let me commit)
+
+// code for visualisation by Rebecca Penn 3333620 for module 2 submission arch1391 2011
 
 import processing.serial.*;
 import cc.arduino.*;
